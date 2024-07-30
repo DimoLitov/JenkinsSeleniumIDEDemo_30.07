@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    stages{
+    stages {
         stage("Checkout Code"){
             //checkout the repository
             steps {
@@ -10,15 +10,27 @@ pipeline {
         }
         stage("Set up .Net"){
             //cinstall dotnet
+            steps {
+                
+            }
         }
         stage("Restore dependencies"){
             //cinstall dependencies
+            steps {
+                
+            }
         }
         stage("build"){
             //build
+            steps {
+                
+            }
         }
         stage("run tests"){
             //run tests
+            steps {
+                
+            }
         }
         
         
